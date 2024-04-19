@@ -81,7 +81,8 @@ from datetime import datetime
 @api_view(['POST'])
 # @login_required
 def chat(request):
-    try:
+    if True:
+        print("write this code ------------------------")
             # print(request.user)
             # raise Exception("This is an example exception raised in main.py")
             # return redirect('login_page')
@@ -111,10 +112,10 @@ def chat(request):
                 "chat_history": json_data['chat_history'],
             }
         )
-    except Exception as e:
-        return JsonResponse({
-            "query": "some internal issue in api",
-            "error": str(e),
-            "chat_history": "error",
-        })
+    # except Exception as e:
+    #     return JsonResponse({
+    #         "query": "some internal issue in api",
+    #         "error": str(e),
+    #         "chat_history": "error",
+    #     })
     
