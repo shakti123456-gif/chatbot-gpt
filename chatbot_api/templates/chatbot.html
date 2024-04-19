@@ -1,0 +1,196 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COE-ChatGenius</title>
+<link rel="shortcut icon" href="https://www.intimetec.com/hubfs/ITT%20Favicon-1.png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+body,
+html {
+  height: 100%;
+}
+
+.card-header{
+  background-color: #1f5a9a !important;
+}
+
+.messages-box {
+  flex: 1;
+  overflow-y: auto;
+  position: relative; /* Added */
+}
+
+.messages-list {
+  padding-left: 0;
+}
+
+.message {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.message-text {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sent {
+  /* background-color: #dcf8c6; */
+  background-color: #7cb9e8;
+  /* Changed align-self to align-items */
+  align-items: flex-end;
+  border-radius: 13px 0 13px 13px;
+}
+
+.received {
+  /* background-color: #f1f0f0; */
+  background-color: #f0f1ef;
+  /* Changed align-self to align-items */
+  align-items: flex-start;
+  border-radius: 0px 13px 13px 13px ;
+}
+
+.message-form {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.message-input {
+  flex: 1;
+  border-radius: 0;
+  border-right: none;
+}
+
+.btn-send {
+  border-radius: 0;
+  background-color: #1f5a9a !important;
+}
+
+.chat-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.loader {
+  display: none;
+  position: absolute; /* Changed to absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading {
+  border: 11px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 11px solid #3498db;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style>
+</head>
+<body>
+<div class="chat-container">
+  <div class="card flex-grow-1">
+    <div class="card-header text-white">Hi there!&#128075;</div>
+    <div class="card-body messages-box"> <!-- Added closing tag -->
+      <ul class="list-unstyled messages-list">
+        <!-- Moved loader inside messages-box -->
+        <div class="loader">
+          <div class="loading"></div>
+        </div>
+      </ul>
+    </div> <!-- Added closing tag -->
+  </div>
+  <div class="input-group">
+    <input type="text" id="input" class="form-control message-input" placeholder="Enter your question...">
+    <div class="input-group-append">
+      <button onclick="callLLM()" class="btn text-white btn-send">&#11166;</button>
+    </div>
+  </div>
+</div>
+<script>
+  var chat_history = [];
+
+  const callLLM = () => {
+    console.log("API call started...");
+    const input = document.getElementById("input").value;
+    const messagesList = document.querySelector('.messages-list');
+    if (input.length === 0) return;
+    const messageItem = document.createElement('li');
+    messageItem.classList.add('message', 'sent');
+    messageItem.innerHTML = `
+      <div class="message-text">
+        <div class="message-sender">
+          <b>You</b>
+        </div>
+        <div class="message-content">
+          ${input}
+        </div>
+      </div>`;
+      
+    messagesList.appendChild(messageItem);
+    document.getElementsByClassName("loader")[0].style.display = "block";
+    document.getElementById("input").value = "";
+    const api = "{% url 'chatapp:chat' %}"
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 30000);
+    fetch(api, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ input, chat_history }),
+      signal: controller.signal 
+    })
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data)
+      document.getElementsByClassName("loader")[0].style.display = "none";
+      const messageItem = document.createElement('li');
+      messageItem.classList.add('message', 'received');
+      messageItem.innerHTML = `
+        <div class="message-text">
+          <div class="message-sender">
+            <b>AI Chatbot</b>
+          </div> <!-- Added closing tag -->
+          <div class="message-content">
+            ${data.result}
+          </div>
+        </div>`;
+      messagesList.appendChild(messageItem);
+      chat_history = data.chat_history;
+      console.log("history",data.chat_history);
+    });
+  };
+  
+  const handleInput = (event) => {
+    if (event.key === 'Enter') {
+      callLLM();
+    }
+  };
+  document.getElementById("input").addEventListener('keydown', handleInput);
+</script>
+<!-- JavaScript dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

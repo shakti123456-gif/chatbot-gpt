@@ -1,0 +1,853 @@
+#,Project name,Client,Type,Domain,Industry,Problem statement,Solution provided,Outcome,Key Features,Technology used,Team size,Duration,Status,SPOC,Migration
+,aeyc,aeyc,project,mobile development- cross platform & web development,education,"association for the education of young children (aeyc) is a non-profit association in us focused on improving the well-being of young children, with particular emphasis on the quality of educational and developmental services for children from birth through age 8 . 
+ aeyc provides many different programs to assist professionals who work to educate young children . people who offers facilities for young children education, aeyc supports them with qualified staff, state licenses (if required for facility) etc.
+ aeyc team keeps track of background verifications, trainings of staff and offers scholarship programs. aeyc has various processes and flows where manual, and paperwork was involved which slowed down the process and not easy to maintain the data. they were looking for digital solution.","in time tec developed rise web application where they users get all the required features and things were automated and easy to maintain.​
+
+access: public ; total users: 25000+ ; language support: english and spanish ; ​
+
+","rise web application helps aeyc to automate their various process which were manual and time consuming.​
+
+rise application has set of features for facility creation, grants approval, trainings etc which enables users and aeyc team to get rid of manual and paper-work.","dashboard​
+banners - banners are helpful to display the important information to the users​
+pending evaluations - once user register to the training and attended that training, the pending evaluations of that particular training or tta will be displayed in the dashboard.​
+trainings - as a rise user there are mandatory trainings need to complete.​
+user can view and register for all the trainings,  created by the idaho stars trainers. here we have two types of trainings which are live trainings where it will be held on through the location and second one is online trainings these will be work based on the cloud id.​
+pdrecord -  this is the professional development record from idahostars. the record has five tabs. view or download any or all of the tabs on your record​",react native,30,8+ years,active,,
+,bfsi - kount,"equifax, inc",project,mobile sdk development,it,"kount specializes in providing fraud detection software and tools along with preventing account takeover fraud. ​
+
+they reached out to us for integrating the existing fraud detection software with their clients and to add ​
+
+geocoding functionality to classic kount mobile sdks.","[financial security] our major work started with helping them integrate existing fraud detection software with major card brands verifi and ethoca. we focused on adding functionalities like user behavioural data capturing to the existing sdks and to integrate it with the mobile app's to be used by customers of kount for android and ios platform. we begin the sdk support for hybrid apps developed in reactnative and flutter frameworks too. we contributed into expanding different ways of distributing kount sdk's and sdk maintenance. currently working on sdks support to xamarin and .net.
+access – internal ​
+
+target user group: global (used by clients of kount for fraud detection)​
+
+team structure – 2 software engineers (ios), 2 software engineers (android), 1 software engineer (qa), 1 software engineer (sdet)","the integration played a major role in the revenue growth and expanding their merchant line. the portal creation simplified most of the manual work and provided a quick and go to solution to access all the information.​
+
+​",,"react native, native & flutter",32,4+ years,active,,
+,sebo,sebo,project,web development,retail/e-commerce,"client was in retail business for vacuum cleaners in us. they wanted digital presence where potential prospects and customers can buy vacuum cleaners. also, platform would provide videos / information about their products. they wanted to manage the product catalogues, content through an admin panel. sebo has various websites, its goal is to provide a gateway between client and various end users (dealers and non-dealers) to purchase vacuum cleaners.​","in time tec has developed and maintained an ecommerce website for sebo to sell vacuum cleaners and spare parts. our involvement with the projects comes with various responsibilities such as:​
+
+provide site security by making sure all the server components stays up to date.​
+
+provide timely cms updates to all the sites.​
+
+fulfil any requirement that the clients may have.​
+
+developing custom components for website features.​
+
+total users: 10000+ ; access: public ; target user group: global",earlier process was manual. in time tec helped in digital transformation that helped in increasing market reach and improved consumer engagement.,,"php, laravel, shopify, wordpress multisite, devops (aws), qa (manual + automation-performance testing)​",3,9+ years,closed,,manual to digitalization
+,fitted running,fitted running,project,web development,retail/e-commerce,"client was in ecommerce business and sold sports products, i.e., running shoes. their existing website was developed using wordpress and had multisite feature. they were facing challenges with performance of the website and needed additional features to address business requirements.","in time tec developed supported with following - ​
+
+performance optimization and refinement of existing system. earlier services were taking very long (48-72 hours). we optimized it to execute in half of the time.​
+
+it was a web portal for different stores in us. user can login and order using the web portal. this was created with multisite architecture. ​
+
+enhanced the admin portal which was used to maintain the inventory for various stores and used to provide valuable information about specific products availability to the store admins​
+
+ access – public ; target users – store vendors and buyers in us","end users got benefited by faster, efficient and improved experience of the website. it increased customer retention and new user acquisition ratio.",,"php, laravel, shopify, wordpress multisite, devops (aws), qa (manual + automation-performance testing)​",8,1year,closed,,
+,bfsi-cii,cii,project,web development,finance,"credit interlink produced a requirement to do research and development for their ongoing website. they asked us to do the development and qa for new and legacy work (different kind of verification orders, new third-party integrations etc.) the envisaged web application would be used as platform to verify information related to customers in order to help iii parties to process loan applications. ​","intimetec has provided a work force which helped cii to do research and development along with qa for their new project. we helped in the ongoing projects well. we have provided the support for their major production deployment (encompass roll-out). ​
+
+intimetec helped cii to find out the areas where they can do improvements (fax services integrated with documo)  and grow their business. ​
+
+intimetec helped processors (cii's internal operations team) to do their job without putting lot of manual efforts by implementing automation and different tools (admin tool, billing tool etc.)​
+
+access: internal (cii employees) as well as external ​
+target user group: us​
+team structure:   7 software engineer (development) ;  4 software engineer (qa) ; 2 devops​","cii is on the leading verification service provider in the market and intimetec helped them to grow their business at a level where they have collaborated with bank of england, bank of america, chase bank, wells fargo, finicity etc.)​
+
+​
+
+in time tec helped in iii party integrations which includes – docusign, documo, finicity, twn (work number), equifax, transunion and experian​
+
+​",,".net core, asp .net, angular, mvc, python, react js, graphql, golang, android, ios, aws, kubernetes, docker",13,10+ years,active,gaurav,
+,bfsi-bci,bci ,project,"web development, automation",insurance,"bci provides idaho health insurance, idaho dental insurance, and idaho medicare advantage in state. we started 5 years back for one of automation project.","this is a major insurance domain client with extensions in other states other than idaho as well. we started with automation support and later web development work. this is an ongoing project with visibility to continue work to support with compliance and digitization of processes. ​
+currently we are providing various services to bci :- ​
+web developemnt ​
+automation sdet work ​
+compliance work like submitting data to bcbsa​
+access – public ; target user group: us","currently we are saving money with automation like mobile automation for them.​
+
+by submitting data to bcbsa we have saved lot of money for bci as it was delayed by 2 years and we have completed this work in 5 months only.",,".net core, asp .net, angular, mvc, python, react js, graphql, golang, android, ios, aws, kubernetes, docker",15,5+ years,active,,
+,basicsafe,basicsafe- simplify compliance llc,project,mobile development,it (safety),basicsafe is an internet-based integrated approach to managing safe work cultures and compliance with regulatory requirements. extensive programming based on proven safety methodologies that target employee training and information access is the backbone of the basicsafe suite. basicsafe is built by skilled programmers working with experienced safety managers at companies helping develop this software. they reached out to us for better ui & usability.,"we started working with basicsafe first on ui refinement and they impressed with work which we did on ui refinement.​
+and along with that we have focus on using cloud services like aws to solve their problems. and as most of the time the application will be used in sites with low/no network areas. we built as mobile application with react native with responsive design where it works in both mobile/tablet and that can support all screen sizes. ​
+access – external​
+target user group: global​
+team structure – 8 software engineers (development), 2 qualification engineers","decreased code deployment time with automated ci/cd pipeline ​
+
+created mobile application which works seamlessly with or without network​
+
+integrated cloud services like s3 bucket for database/code backups.","key features: ​
+
+authentication​
+
+barcode scanning​
+
+audit tool​
+
+policies and procedures tool​
+
+incident tool​
+
+jsa tool​
+
+sds tool​
+
+loto tool​
+
+offline usage​
+
+responsive in all screen sizes​
+platform: ios, android​
+technology: (cross platform)  react native",react native,10,5 years,closed,,
+,liiingo,liiingo,project,web development- application revamp,it,"liiingo is all about connections. with liiingo you can: -engage visitors with interactive information, videos, and graphics -keep employees up to date with protocol, shift changes, and announcements -and make your company inclusive with smart language detection.​
+
+itt is revamping their web and mobile application with a new ui and existing bug fixes. also migrating to latest react native versions.","liiingo partners with companies to provide customer connection and engagement through it’s web and mobile content platform. liiingo provides a dynamic links and qr codes that links a partner’s customers and end users to localized content about a product, a location, or a service.​
+
+our work includes modifying the existing web application so that it works on a variety of user devices, not just mobile phone web browsers. liiingo desires to provide a web view experience that is appropriate for phones, tablets, laptop and desktop computers, and possibly kiosk and larger devices up to 4k resolution.​​
+access: public / global ​
+target user group: us​
+team structure – 1 tech lead, 2 software engineers, 1 qa",consistent ui/ux in different devices. lesser ui issues. smooth performance of mobile and web apps. ​,,react native,4,6 months,active,neetima,migration to latest react native version
+,air products,"air products and chemicals, inc.",project,web development,manufacturing,"air products’ objective was to partner with in time tec for long term software development services that increase capability and capacity as needed for project completion. in time tec has been supporting them with maintenance and upgradation of existing applications, as well as develop a newer version for some of them. ","we maintain and develop 5 applications under the air products client umbrella, which facilitate various workflows in the gas plant management systems.  the applications are:​
+
+digital ci: tool is used to visualize plants, customers, & fuelling stations information within a particular geographical location along with their different properties to produce or transport gases based on carbon intensity.​
+
+reformer balancing: a process conducted through iatwt tools (which in time tec team works on) carried for the plants which collects and process temperature data, runs optimizers through process inputs and maps that creates reports to summarize the findings for a particular plant.​
+
+optiplus: tool used to check periodic data of gas pipelines and other machineries in their plants by which they troubleshoot the system and perform optimization, if required.​
+
+mpo: (multi plant optimization) tool used to provide details about various products, plants and customers across various franchises like gulf coast, alberta, southern california etc.​
+
+smart view: tool is used on handheld devices/tablets to monitor time real data from different gas plant monitoring stations. in time tec provides database support.","in time tec has given a face lift to some of the existing apps for air products and has helped in creating visually attractive, user friendly, dynamic and robust applications. ​
+
+we are now fully aware of their domain (role of the software applications in a chemical industry) and have been successfully working with the air products team in enhancing the overall user experience.",,"angular, .net, azure devops",29,1 year,active,sudhir,
+,simplot dba,simplot,project,,agriculture,simplot was looking for capable engineers to handle their databases and maintain them. they mainly wanted us to have a standard defined for the database backup and other  maintenance activities for their servers. ,"as per initial requirement itt was mainly focusing on creating database maintenance plans and defining standards on fewer than 100 servers. now, we maintain 400 servers and 4000 databases of the entire simplot organization. we provide database support for both north american and australian clients. the team is responsible for the database maintenance, configuration and deployment of new and existing db servers. we are responsible for any strategic decision on the project level. we configure and maintain the high availability techniques across the project. we also take part in critical decision-making process along with simplot team. we provide solutions for various security aspects and end to end support during server migrations or database upgrades.",,,,2,6+ years,active,,database server migration
+,simplot bi reporting,simplot,project,,agriculture,"simplot was looking for migrating their legacy reporting and etl tools like brio, qlikview, cognos, web focus to microsoft stack","we are taken end to end responsibility for migrating all the reports from brio to ssrs, worked on the administration of the qlikview servers and worked re- architecture of the qlikview servers and migrated 90% of the qlikview reports to microsoft power bi, ssrs. we have also worked on migrating the cognos cubes, ssis packages to ssas, ssis respectively. also worked on creating many of the reports in power bi from scratch. we also provide the support for all the cognos cube, reports, packages, and ssrs, power bi, qlikview support",,,"power bi, ssrs",7,6+ years,active,," migrating their legacy reporting and etl tools like brio, qlikview, cognos, web focus to microsoft stack "
+,communicator app,alertsense,project,mobile development- cross platform,communication,alertsense had a development team and needed an extended team. a web application was already in place and they wanted a mobile app with similar features. in time tec started with mobile app development as well as maintenance of their existing web application. ,"alertsense communicator fulfils following objectives - 
+simplify crisis & incident reporting: situational intelligence from mobile users, with images/assessments, delivered to automated escalation paths by event type.​
+location-based alerts: assess safety/status of mobile travellers & site users in a map-selected area. identify/alert those in harm’s way, while preserving battery life & respecting users’ privacy
+access: internal​
+target user group: b2b (internal use within organisations) ​
+team structure:  ​
+1 software engineer (be development) ;  ​
+2 software engineer (mobile-native) ; ​","in time tec helped alertsense in launching their apps. earlier their apps were internal to their team. entire process of go-live was done by in time tec. ​​
+","key features: ​
+push notification​
+server-client rest connectivity​
+map integration​
+create alerts from app​
+upload media files​
+chat​
+platform: android​
+technology: native ",native,3,2 years,closed,,
+,myalerts,alertsense,project,mobile development- cross platform,communication,alertsense had a development team and needed an extended team. a web application was already in place and they wanted a mobile app with similar features. in time tec tec started with mobile app development as well as maintenance of their existing web application. ,"•user can receive life-saving emergency alerts from public safety agencies, advanced warning of severe weather and community notifications that impact you and your family. ​
+
+•location based alerts with live location monitoring to keep the user updated.​
+
+•alerts include severe weather, public safety, community notifications.
+access: internal​
+
+target user group: b2c (internal use within organisations) ​
+
+team structure:  ​
+
+2 software engineer (be development) ;  ​
+
+2 software engineer (mobile-cordova ionic) ; ​
+
+1 software engineer (qa)​
+
+​",in time tec helped alertsense in launching their apps. earlier their apps were internal to their team. entire process of go-live was done by in time tec.,"key features: ​
+
+ push notification​
+
+ server-client rest connectivity​
+
+ location based services​
+
+ motion sensors​
+
+ map integration​
+platform: ios, android​
+technology: cross platform (hybrid)",,5,5 years,c;osed,,
+,ubi,skytrace,project,mobile development -ionic/web development,transport,client needed live tracking for vehicles and sending notifications to the end users for car services and other services.,"developed mobile app as well as web portal for vehicle inventory management and services. 
+
+mobile application is not live yet, however client found few customers, and we have given demos to them and this is ongoing, developed software for managing hardware devices used for live tracking.
+access: external​
+target user group: global​
+team structure:  2 software engineers (development) ;  1 software engineer (qa)","user who subscribe to the mobile application get notifications for due car services, and they can also track their vehicles live. vehicle lot can be managed.","key features: ​
+
+live tracking of vehicles​
+
+securing vehicle from thefts​
+
+share live location anytime​
+
+notification of vehicle status​
+
+server-client rest connectivity​
+
+
+platform: ios, android​
+technology: cross platform​","angular, python, ionic, devops",4,5+ years,active,,
+,pmi chapter event,pmi chapter event,project,mobile development - cross platform,events,ease pdu submission and increase participant engagement at local chapter events with the pmi chapter events app. it uses gamification to engage users with sponsors,"in time tec offered following solution via mobile app development that helped the stakeholders in following way - ​
+
+​
+
+•admin: event organizers can scan and register their attendees using their mobile phones or ipad at the event streamlining the onsite check-in and pmi pdu crediting process. ​
+
+•user: event attendees can view and register their attendance using their mobile phone at the event streamlining the onsite check-in and pmi pdu crediting process. ","participating local pmi chapters use the app to take attendance and submit pdus for members. chapter members and guests register for events and even choose conference sessions, where applicable, in the app.​","key features: ​
+
+server-client rest connectivity​
+
+event attendance​
+
+event details & location​
+
+event calendar​
+
+qr scanner / generator​
+
+
+platform: ios, android​
+technology:  cross platform​
+
+​",cross platform,2,3years,closed,,
+,feedlot manager app,nextgen agtech,project,mobile development - native,agtech,"next gen/ag tech offers tech innovation to the agriculture industry by allowing feedlot managers to track cattle shipments, manage feedlots, and finance cattle using cloud software. feedlot manager is product of nextgen agtech.","cattle country capital app is a solution for tracking finance data of cattle for various feed lots. ccc helps in cutting paperwork and multiple spreadsheets required for managing cattle and related finances. ccc has multiple software applications to cover lifecycle of livestock from procurement, animal husbandry involving feeding, rationing, health and reporting, and transportation for further processing in the cattle supply chain.​
+in time tec has developed the product and releasing mvp version in 2023. mobile app is expected to be published on itunes this year.
+access – b2b (customers subscribing for ngat)​
+user group: us​
+team structure – ​
+2 software engineers (development-backend), ​
+2 software engineers (ios)​
+1software engineer (qa)​","app has been tested in production environment. development work is ongoing and not published on itunes yet.​
+
+​","login as loader or truck driver​
+
+select ration to load in truck​
+
+monitor delivery of ration to pens.​
+
+real time loading and delivery of ration​
+
+​
+
+platform: ios (ipad)​
+technology:  native","ios, reactjs, .net, azure",14.5,2+ years,active,,
+,st luke's health system,st lukes hospital,project,mobile development - native,healthcare,"mobile app (ios+android) for major healthcare provider of idaho. has features like find providers (search by name, specialty or keywords). we can search provider in family medicine, paediatrician and urgent care. find location by name in same family medicine, urgent care and emergency care. provide feedback to app admin.","in time tec app to support following features - ​
+
+help users find nearby hospitals in st. luke’s network​
+help users find nearby specialty doctors in st. luke’s network​
+get details about hospitals and doctors​
+access personal medical records with integrated mycharts​
+pay medical bills with visit pay.​
+access: ​
+target user group: global​
+team structure:  ​
+6 software engineer (development) ;  2 software engineer (qa)​
+(*5 mobile app developers ; 1 be developer)","st luke's hospital was not having a mobile app earlier. in time tec helped in bringing experience for their patients on mobile platforms. it is of great use for the patients as it is earlier to get important information about doctors, hospitals and medical help.","find nearby hospitals​
+
+find nearby specialty doctors​
+
+pay bills​
+
+access medical records​
+
+​
+
+platform: ios, android​
+technology: swift, kotlin","ios : swift​
+
+android : kotlin​
+
+backend api: .net​
+
+third party api to fetch provide and location : talix",8,2+ years,active,,
+,touchfree mfp,hp,project,mobile development - cross platform,printing,"during the pandemic, in time tec realized that most industries were focusing on touchfree experience. this was was a result of an idea to create touchless experience for printers and mfps.","in time tec developed mobile app that supports following features - ​
+
+remotely control compatible hp printers and multi-function devices through your phone on the same network.​
+
+print any supported document on your phone.​
+
+scan documents and save them to your phone without touching the mfp control panel.​
+
+share your scanned documents anywhere your phone can share​
+
+copy documents without touching the mfp control panel.
+access: external​
+
+target user group: global​
+
+team structure: 4 dev 1 qa","with touchfree mfp app, users no longer need to worry about touching a printer or scanner control panel again. with this app, they can remotely control compatible hp printers and multi-function devices through their phones.​
+
+​","remote print, scan, copy​
+
+share scanned documents​
+
+touchless access​
+
+multi printer support​​
+
+platform: ios, android​
+technology: cross platform","android, kotlin, ios, swift, java, devops, api automation",not available,not available,closed,riddhi,
+,hp roam,hp,project,mobile development - native,printing,hp roam was a mobile app which was designed and developed for roam printing (print from anywhere). later it was enhanced and supported by in time tec. it was an ambitious project for hp. ,"in time tec developed certain features in collaboration with hp. we majorly did the qualification work for entire project. this includes setting of the framework, creation of working pipeline to promote code to production ​
+
+api testing ​
+
+ui testing ​
+
+devops ​
+
+work we have done - mostly fixed bugs, fees feature, taxability feature, diselematic feature, payrix feature.
+access: external​
+target user group: global​
+team structure:  5 software engineer (development) ;  20 software engineer (qa)","hp roam app helped to accomplish following - ​
+
+print effortlessly from any device, virtually anywhere, to any hp printer—securely through the cloud​
+
+mobile professionals can now print at virtually any time, from virtually any location and device. print jobs are submitted to the cloud as users create or consume content. ​
+
+prints can then be securely retrieved from any enabled device in the office, at a home office, or at a growing number of public print locations.1 there's no need to worry about device-to-printer compatibility or connectivity"," ble nearby search​
+
+ map integration​
+
+ location tracking​
+
+ server-client rest connectivity​
+
+​
+
+​
+
+platform: ios, android​
+technology: native​",native,25+,2+ years,closed,,
+,life's abundance app,life's abundance,project,mobile development - cross platform,sales,life's abundance products are made for people and pets (dogs and cats). they already have an existing website. they wanted a mobile app for their sales team so that sales team is updates about volume of sales and commission on sales. ,"in time tec developed first phase of the application that has following features - ​
+salesperson can login and rest username/password ​
+salesperson can view sales commission and volume of sales ​
+salesperson can set notifications based on time (weekdays, weekends, month-end, or never)​
+above features are completed and first version is released.  ​
+development is ongoing, and next update will include history and features are being discussed with client.
+access: internal ​
+target user group: us​
+team structure:  3 software engineer (development) ;  1 software engineer (qa) ; 1 technology consultant",enable sales team with visibility of sales volume and commission history. app development is ongoing and feedback from actual users (salesperson) is awaited. ,"key features: ​
+
+ login / forget username/password​
+
+information on sales commission / sales volumes​
+
+push notifications – settings to receive ​
+
+​
+
+​
+
+​
+
+platform: ios​
+technology: cross platform (react native)​",react native,5,8 months,active,vijaya,
+,opportunity renewal process automation,global logic,project/case study,salesforce,it,"client is a global provider of professional it services and solutions which includes product design and development. opportunity (sales leads/deals) renewal is maximum portion of business, but opportunity renewal was manual, there were chances of missing creating renewal opportunity causing issue in getting accurate data. ​
+
+note- opportunities are deals in progress. opportunity records track details about deals, including which accounts they're for, who the players are, and the amount of potential sales. if your salesforce admin has set up leads in your salesforce org, an opportunity is created when a lead is converted.",automated the opportunity renewal using scheduled process that will occur just before 90 days of agreement expiration date on an opportunity. ,no manual process and enabled business team take proactive action by creating renewal opportunity before agreement expires and provided accurate data for in a clicks.​,,salesforce,,,,,
+,customization & optimization of project planning & resourcing process ,global logic,project/case study,salesforce,it,delivery team was using excel sheet to calculate options of team composition and ramp up plan while negotiating with client/prospect. this data was not utilized efficiently for future purposes and maintaining data in excel sheet is tedious job.,"built a customize solution to estimate team composition and staffing plan, to calculate labour and project margin for opportunity right in the system. also provided additional functionality of loading estimate details using xls template. loading functionality was improved and helped in reducing time to fetch data. for example: 1000+ staff can be loaded within a minute. these estimate details can be exported and shared with customers as a quote.​
+
+​",average creation to completion time for quotes improved. accurate planned data that helps for analysis of planned vs actual.,,salesforce,,,,,
+,custom dashboard & structured reporting ​,global logic,project/case study,salesforce,it,"sales team was facing challenge to prepare reports and charts externally that was needed for sales heads and management.​
+
+​","built customized dashboards upon business need using einstein analytics. created sales dashboard to provide an overview of key performance indicators to sales team. created dashboards to show a projection of business for the next 2 years, sales trending analysis using waterfall representation, customized leaderboard dashboard to show the performance of sales reps and service offerings open pipeline to showcase sales based on offerings.","removed repetitive process of external chart preparation and have all dashboards at single place.​
+
+​",,salesforce,,,,,
+,deal creation and invoice,global logic,project/case study,salesforce,it,move complete business process to salesforce from deal creation to invoice. as currently different functionalities distributed across multiple systems including oracle erp.,"customizing the psa package provided by financialforce.​
+
+salesforce provides solutions to overcome the challenges client was facing with oracle erp and other systems.","there were restrictions, challenges and limitations client was facing with oracle erp / other systems being used ​
+
+single system to manage complete process from deal creation to invoice (in progress)",,salesforce,,,,,oracle erp to salesforce
+,merging two salesforce instances into one,simplot,project/case study,salesforce,agriculture,"*org merge (they were using two different salesforce prod for different countries)​
+
+*an org merge is the process of combining one or more production instances of salesforce.​
+
+​","  merging both orgs and according to region employees started using them.​
+org merge offered different types of solutions. which includes:​
+migration of all metadata, users, and their permissions into the first environment.​
+all objects and their fields and record types have been migrated to the merge environment.​
+the purpose of this project: was to move all users and necessary configuration from the sapl org into the na org. this was not a trivial task and took a lot of effort to complete. ​​
+migration strategy used:​
+the way we migrated metadata, users, and data is by using a big bang approach. this approach helped us to complete migration efficiently.​","cutting maintenance overheads: no need to maintain two salesforce orgs for one company.​
+
+​
+
+​
+
+​
+
+​
+
+​
+
+​",,salesforce,,,,,merging two salesforce instances into one
+,experience cloud implementation  ,simplot,project/case study,digitalisation,agriculture,"simplot wanted to have  digital experiences to connect with customers, partners, or employees. users can use 'help forum', support community and other web pages to manage accounts and invoices."," experience cloud usage(implementation) - it helps to deliver connected digital experiences — fast. reinvent the customer experience, engage more customers, and accelerate growth across any industry with data-driven sites, portals, and mobile applications. ​
+
+​",proper digital experience connected to crm.,,salesforce,,,,,
+,cpq implementation,simplot,project/case study,salesforce-process automation,agriculture,simplot wanted to manage pricing for products and rebate on product according to history of customer.  that includes approval automation from higher authorities and other automation processes. (we are implementing idea. solution for using cpq was offered from salesforce team )," provided a solution to speed up their sales process and generating quotes, orders and contracts"," made the process easy and quicker for rebate on product as per history of customer. ​
+note: cpq is an abbreviation of configuring, price, and quote. it is an extension of the salesforce crm, and its purpose is to speed up the sales process and make it easier. cpq is a native unit of salesforce that is responsible for the automation of generating and processing quotes, orders, and contracts​",,salesforce,,,,,
+,truckstop,truckstop,project,web development and testing,transport/logistics,"client is in logistics business involving brokers and carriers. they were already using a web application. they expected in time tec to enhance the existing application and do the qualification work​
+
+​","truckstop is a leader in transportation technology and freight matching solutions. truckstop offers logistics solutions for transportation professionals through load planning, transportation management, real-time rates, and negotiation tools, as well as the largest industry credit reporting entity helping industry professionals find trusted freight partners.","after in time tec took over, there was improvement in quality and many additional features were added. testing was automated that help in saving time and increased speed of execution.",,".net, php manual qa c#, rest sharp, selenium salesforce, provar, angular, python, ionic, reactjs, automation ​",80,3+ years,active,gnanraj,
+,rmis,truckstop,project,web development,insurance,truckstop (client) had acquired (rmis). they started integrating rmis into truckstop. they are doing sales and wanted our team to help with generating accounts / web view for clients of truckstop and do the qualification work.​,"team is responsible for truckstop new product acquisition rmis, which is insurance domain and responsible for onboarding new client carriers.​
+
+started with a lean team of 3 developers to start up and later team expanded to 20+ developers and 30 qa engineers supporting the project.​",improved sales and quicker onboarding for clients of truckstop.​,,.net,50,1.5 years,active,prasun,
+,fullbay,fullbay,project,web development,transport,fullbay is based on php technology and an existing web application was in place. fullbay is cloud-based shop management software built specifically for heavy-duty repair shops. client wanted new features implemented in their existing website. they needed help with implementation of business logic (calculations and billing). ,"in time tec helped client with development of features such as clock management, simplified invoicing, inventory monitoring, streamlining reports etc, and ui changes on the existing website.​
+access: external ​
+target user group: us​
+team structure:   9 software engineer (development) ;  3 software engineer (qa)",client's sales processes got streamlined. required features got added on to their website.,,php,12,1year,closed,kuldeep,
+,"ferry international
+","ferry international
+",project/case study,app development,education,"client is a real estate coaching company. they provide training, motivating and coaching services by teaching lead generation and conversion techniques. they offer one-on-one coaching, experiential training events, and online productivity products as well as sought-after speakers for exclusive events.​
+
+they needed an app for administrative users to access real time data about potential system problems, reporting deprecated metadata, users and licences.  ","lightning app for admin users where they can access real-time categorized org and object limits data, login activity of users and helping admins to figure out if licenses can be freed up.   ​
+
+​",it helped the system administrators and other stakeholders with decisions like designing solutions for new requirements and managing user licenses.,,salesforce,,,,,
+, refinement of design ,"ferry international
+",project/case study,,education,security and access clean up: simplifying user profiles and permission sets and redesigning of security model. ,the itt team figured out profiles and permissions are redundant and making admins difficult to figure out what to access to give what user. redesigned the security model to remove access checks in the code to efficiently use the out of box security solutions provided by salesforce.,this helped admins to determine easily what profile to be assigned to users and what additional permissions to be given and users having exactly what access they need.,,salesforce,,,,,
+,salesforce implementation ​,balsam brands,project/case study,,transport/logistics,"for an oversize product, there are multiple cartons per package, and the same number of shipments are generated with the labels and bol, which costs the business team at least $200 per box to return.​
+
+​","a single shipment was implemented for multiple packages with a single bill of lading with custom apex code by making use of zenkraft apis.​
+
+​",helps business reduce significant fedex billing costs.,,"salesforce, zenkraft apis",,,,,
+,360 degree view of customer data,balsam brands,project/case study,ux design,ecommerce,"it was difficult for users to have a look at the transactions and interactions made by a customer with the company. and users want to see all the details on a single page to help service the customer better.​
+
+​",implementation customer 3600 using salesforce lightning solutions and duplicate data mangement ,helps save the users time and improve ux and serve their customers faster and better.,,salesforce,,,,,
+,cradlepoint- salesforce community cloud,cradlepoint,project/case study,web development,,"bring cradlepoint's partners and employees together on a single platform as part of cradlepoint connect initiative​
+
+portal was responsible to provide a place where partners can share deal information with employees, create support cases and access latest knowledge articles​
+
+​","salesforce community cloud was used with customer community license instead of partner community license.​
+
+features were implemented using apex and visualforce pages.​
+
+look and feel of portal was completely changed from salesforce standard to cradlepoint website theme using html, css and javascript.​
+
+note- community cloud is a social platform from salesforce.com that is designed to connect and facilitate communication among an organization's employees, partners and customers.","salesforce community cloud was used with customer community license instead of partner community license.​
+
+features were implemented using apex and visualforce pages.​
+
+look and feel of portal was completely changed from salesforce standard to cradlepoint website theme using html, css and javascript.​
+
+note- community cloud is a social platform from salesforce.com that is designed to connect and facilitate communication among an organization's employees, partners and customers.",,"salesforce, html , css , javascript",,,,,
+,iris,iic,project,,insurance (public sector),"earlier idaho industrial commission were using the commercial off-the-shelf software which involved so much of manual intervention. apart from this there were so much of paperwork which plays crucial role in the completion of running process. overall, the legacy s/w were having lot of dependence on the paperwork across the department at iic. ​
+
+​"," automating the compliances, benefits processing and giving the flexibility to the claim holders to submit their claims via portal. targeting to golive by early 2024. 30-40 users from iic are going to use the system. however, n number of claim users can use the system via portal. ​
+
+compliance app is live. it is being used by iic to check compliance related to workers compensation from employers' side as well as from employee-side.​
+
+​
+
+access: internal for iic (idaho industrial commission) as well as web portal for external users seeking benefits​
+
+target user group: state of idaho, us​
+
+team structure:  1 product owner, 2 project managers (onshore/offshore), 20 software engineer (development) ;  8 software engineer (qa/sdet) ; 3 business analysts ","iris is a multi-year project, executed by the idaho industrial commission (iic) in tandem with in time tec, to configure commercial off-the-shelf (cots) software which fulfils the industrial commission’s business requirements. the goal of iris is to replace paper-dependent administrative processes with digital solutions that emphasize customer service, optimize data management, and foster workflow efficiency. ​
+
+​
+
+the project will implement microsoft dynamics 365 to replace all existing business applications. it will also introduce digital document storage solutions and power bi, a robust reporting and analytics tool, to commission operations. ",,"microsoft dynamics 365, power bi",35,3 years,active,sudhir,
+,getoraid,idaho health & welfare dept.,project,,healthcare (public sector),idaho health and welfare department do track the cases wherein the fund request or maintainability of the clients/ contacts and this brings in the automation of the same for the idaho heatlh and welfare dept.,"automating customer service for dept. of health of idaho. targeting to golive by early 2023. ​
+
+​
+
+access: internal as well as external​
+
+target user group: us​
+
+team structure:  1 product owner/ba, 2 project managers(onshore/offshore, 1 technical architect, 3 software engineer (development) ;  1 software engineer (qa)",the solution will help client to have paperless and easy step to track the fund request or maintainability of the clients/ contacts. ,,microsoft dynamics 365,8,3 months,active,sudhir,migration from manual to digital data storing
+,tugboat-custom solutions on power app platform ​,tugboat,case study,,education,"the service provider will provide software solution development services, delivering a software solution built on the microsoft power platform, that will deliver the objectives of phase 1 of the app modernization solution​
+
+the microsoft power platform will be used as the basis for the certification tool along with other microsoft power platform tools","features to be developed in phase 1, covered by this sow, include​
+
+- a customer portal where customers sign-up or login to the system and execute and manage the certified evergreen process.​
+
+- payment integration.​
+
+- diagnostic survey for potential new customers.​
+
+- data architecture and implementation for collection of certification data and accessibility to data for current and future growth.​
+
+- bridge from phase 1 of the system to the existing scoring and reporting system.
+ability to spin up a test environment for the tugboat institute users to test changes to the system.​
+
+- setup and administration of the power platform for the tugboat institute.​
+
+- documentation and training on usage of the system as well as technical design documentation ​","itt will provide software solution development services, delivering a software solution which will enable client’s current system and execute and manage the certified evergreen process along with the payment process.",,,,,,,
+,titan,hp,project,web development/test automation,printing,it was a web portal built for hp partners for mps business targeted towards different offerings and their subscriptions. these offerings are for different apps which can be installed on printers. hp marketing and sales team were involved as stakeholder for the project.,"itt came as extended staff to existing team members, started with api test automation and then started contribution on development. eventually, itt took responsibility for 24x7 support, implemented new relic and victor ops.​
+
+as part of the application rest apis were exposed to hp partners to consume. these apis were protected via service account authentication.​
+
+​
+
+target user group: hp partners​
+team structure:  10 sdet, 5 developers, 1 manual qa","as in time tec took responsibility to automate all regression and smoke test cases, team could achieve goal of daily deployment. time to code merge to production was possible within 6 hours including all checks and testing.​
+
+with implementation of new relic and victor ops, development team was not required to monitor the system, instead they started receiving call when system required any attention.",,,25+,2+ years,closed,tarun,
+,hp sales central,hp,project,web development,printing,"hpsc is hp inc's highest user traffic web portal; even higher than hpshopping.com.  hp was looking for a development partner to upgrade the web application to address evolving business needs  hpsc contain the latest hp product information, sales and marketing training material, and customizable presentations for hp internal sales/marketing, hp resellers, hp partners, and other approved users​
+
+b2b application ; access: hp internal and external​
+
+target user group: ww sales and marketing​","in time tec upgraded the hpsc web application portal both technology stack and its sales/marketing content​
+
+in time tec redesigned the entire web application to match the latest ui/ux trends and provide a seamless experience for the end users.","in time tec helped in achieving speed, performance, efficiency and usability through the newly redesigned hpsc web application. ​
+
+provided personalized user experience and content for over 65 countries and 30+ languages.",,,15,4+ years,active- maintenance,,
+,hp service estimator,hp,project,web development,printing,service estimator is a web application which provides a one-stop solution to hp sales team to add hardware and lifecycle services as per their requirements  and to get rough pricing estimation which helps them in working more efficiently and improves the overall employee experience.,"in time tec utilised existing application which was developed for another business unit within hp, understood the implementation and modified it for services estimator. application was also integrated with new systems to bring in accurate data and minimise human intervention. project included implementation of etl(extract, transform and load) process, devops and aws lambda functions.​
+
+​
+
+target user group: hp sales team​
+team structure:  1 sr software engineer(development), 3 software engineer(development), 1 sr software engineer(qa)","since services estimator integrated with multiple other systems, it was easy to bring in new services to the platform. this allowed sales team to move away from excel to a system helping hp to achieve its goal of digital transformation.​
+
+services estimator utilised new ci/cd solution which helped hp in maintaining their applications and infrastructure.",,"aws, lambda functions and devops",15,5+ years,active,tarun,from excel to digital transformation
+,hp s&m portal,hp,project,web development,printing,developing a portal that provides a one stop solution for the application users for managing inventory to capitalize the business gains.,"s:ara application overview: supplies and advanced replenishment (s: ara) is a project by hp to manage its inventory for the following products to have the maximum business gains.​
+ink, toner, uk and tx​
+the project deals with the scope of managing inventory of the above products to capitalize the business gains by managing the quantity of the products, which are to be delivered to its market.​
+currently used by pilot distributors - 10​
+bp and dbms - ~10-20​
+
+​","s:ara application overview: supplies and advanced replenishment (s: ara) is a project by hp to manage its inventory for the following products to have the maximum business gains.​
+ink, toner, uk and tx​
+the project deals with the scope of managing inventory of the above products to capitalize the business gains by managing the quantity of the products, which are to be delivered to its market.​
+currently used by pilot distributors - 10​
+bp and dbms - ~10-20​
+
+​",,,19+,2+ years,active,raunak,
+,hp sustainability calculator- gaia,hp,project,web development,printing,"to enable customer to understand the sustainability metrics such as energy consumption, eco-labels, and recycle content of the product and be able to compare this with other hp products, competitor products and legacy products – for use in tenders, customer presentation and business cases for a product/fleet.​
+
+b2b application ; access: hp internal access​
+
+target user group: great britain and france for now​
+
+team structure: 7 software engineers (development); 1 software engineer (qa) ​",web application where hp employees can compare different products or fleets based on the sustainability data provided by the tool. this will empower customers to recognize sustainability savings and benefits of hp products at rfp/rfi stage.,"this solution can act as a standalone application or be integrated in other portals in future. we are providing consolidated sustainability metrics for product/fleet comparison, by consuming data from multiple data sources.",,,9,1 year,active,,
+,hp portico fleet mapping & design,hp,project,web development,printing,portico is a team within hp that takes care of mps solutions. client was looking for a solution to track the printing assets on a particular floor or building. ,"[printing/mps] portico is a different flavour of cartos (home grown product by in time tec)  used by hp with added features dedicated to hp. this is an internal application used at different hp sites for building up the print infrastructure. ​
+portico is an application or tool for mps - 'managed printing services'. ​
+it is used by fleet designers to manage and provide service to the valuable customer(s). ​
+it allows these mps providers to optimize the floor plan of the companies and help organizations to reduce costs on print services, maintenance, and better utilization of the resources available.​
+in time tec is also responsible for l3 support which is part of product o&m (operations & maintenance) for portico. 
+access: internal​
+target user group: hp sites in us ​
+team structure:  1.5 software engineer (development) ;  0.5 software engineer (qa)","it allows the visualization and optimization of mps fleets through every phase of the mps: pre-sales, fleet design, fleet deployment, service technicians, post-sales, and obsolesce life cycle.​",,,8,5+ years,active,mahesh,
+,hp smartfleet,hp,project,web development,printing,"the smart fleet early warning detection system monitors printer telemetric error data and intervention data on a routine basis. hp users, engineers and account managers, would like to receive alerts when printer errors or intervention data is increasing","a web portal for hp user to subscribe to smart fleet alerts and to create their own custom alerts. it provides the following:​
+creation of custom alerts ; view created custom alert​
+edit/modification of custom alerts ; rename of custom alerts​
+deletion of custom alerts ; cloning custom alerts",web portal for hp user to subscribe to smart fleet alerts and to create their own custom alerts.,,,8,6+,active,,
+,hp itsm daas/mps,hp,project,test automation,printing,"hp inc leases printers, laptops, servers, cloud instances  etc on chargeable basis based on the usage. servicenow is used  for service management, change management, problem and incident management, asset management, task management and knowledge management.​
+(daas = device as a service ; mps = managed print service) ​","we offered the support on qualification  of the new feature development and maintenance of the same. automating the tests to decrease the manual efforts in regular huge regressions.​
+mps project was completed in dec-2022 which had team size of 12 engineers. currently we are supporting daas project.​
+access: external​
+target user group: hp assets users​
+team structure:  14 software engineer (qa/sdet) ;  2 support engineer ( platform admin and support )   ​",delivered the high-quality application and the automating  the regression suite and constant support on the issues occurred.,,,16,3+ years,active,poola,
+,hp daas portal,hp,project,web development,printing,"to give hp customers and partners a one-stop portal for everything ps (personal systems) services related. execution of the transition to the laer model – land, adopt, expand, renew. ","ps services portal tool is a web-based application for hp enterprise direct customers. hp ps services portal is your one place for all things hp personal systems services. hp personal system services partners with customers to increase user productivity, operational efficiency, and cost predictability. ","hp ps portal (i.e., hp daas portal) helps the organization manage their customers, contracts, orders, assets, and services effectively. ​
+
+​",,,8,6+ years,active,,
+,hp itsm development,hp,project,software development,printing,"itsm is an infrastructure management system for hp assets (devices). it was an ongoing project for more than 5 years and multiple vendors were supporting the project. client considered in time tec to support with development project as we were already providing qualification, automation and l1 support for itsm for more than 2 years.","capability managers are providing different requirements they receive from their vendors as per business specific use cases. in time tec receives requirement and prepares implementation plan to develop and deliver as per documented requirements. ​​
+currently, a lean team is working on the project. and it is expected that team will be upsized to 10+ servicenow developers by over next 9 months.​
+
+​",in time tec team has been delivering with quality and consistency. ,,,2,3+ months,active,,
+,hp ppu,hp,project,web development,printing/sales & marketing,"hp large format print sales and marketing team was using excel to calculate profit margins and price outcomes. entire process was manual and error prone. this was automated through the (web application) calculation tool we created. including downloadable pdfs of the work done.​
+
+​","[printing/mps] large format print portfolio configure & price is a pricing simulator that recommends payment quantities for pay-per-use contracts. it estimates values for pagewide xl, designjet and latex printers.​
+access: internal / hp partners (resellers)​
+target user group: global​
+team structure – 1 software engineer ","easy to use tool for hp partners all over the world. they can login, select printers, configure required services and check final prices with modified margins. aid in sales and marketing.",,,4,6+ years,active,neetima,excel (manual) to web application
+,hp configurator,hp,project,web development,printing/sales & marketing,"hp configurator was started as a proposal to meet hp mps user needs to explore various configurations of printers, understand detailed specifications and customize a configuration based on customer's specific needs. ","[printing/mps] capitalize on hp's managed portfolio​
+hp print product configurator:​
+meet clent's needs by creating a valid configuration for any a3 or a4 device across hp’s managed print portfolio.​
+hp partner price book tool:​
+build price book for hp’s complete managed print portfolio with easy access to all component level pricing, operating cost per page (ocpp) metrics, product information, and margin calculations​
+access: internal / hp partners (resellers)​
+target user group: global​
+team structure – 1 software engineer ; 0.5 software engineer (qa)","flexibility for  worldwide hp direct users and partners to load pre-configured packages with a3/a4 printers. modify configurations as per need. calculate estimated operating cost per page. load country wise pricebook which is a catalog of hp's managed print portfolio with details of each product and prices.​
+
+overall enhances the process of sales and marketing.​",,,4,6+ years,active,neetima,
+,pharos service,hp,project,web development,printing,"client was looking for a technology partner who would help with custom software development for their customers (leading printer manufacturers).​
+
+​","[secure printing] it is an enterprise solution for a secure printing which includes the pull printing and server based/less printing. it includes the encryption of information and keeps the confidentiality of the printing. it support various vendors of the printers as hp, ricoh, cannon, km and lexmark. ​
+access:  external​
+target user group:  global​
+team structure:  13 software engineers (development),  2software engineers (qa)","1. developed complete secure print solution for toshiba, lexmark and canon​
+
+2. developed touchless printing feature for toshiba, hp, canon, xerox, konica minolta and lexmark​
+
+3. scan to feature development for toshiba, hp, canon, xerox, konica minolta and lexmark​
+
+4. smartcard authentication for ricoh printers​",,,18+,4+ years,active,kapil,
+,cartos,hp,project,web development,printing,"cartos is a cloud-based fleet design and asset utilization tool for managed print service (mps) providers. the name ""cartos"" is derived from cartography, or the study of maps. cartos allows mps providers to optimize sites, gain more control on print services and provide more efficient costs, maintenance and resource utilization. ​
+
+it is a home-grown product used by clients such as sharp global, copypro, inc, and pharos systems international, inc.","[printing/mps] cartos is home grown saas product offered as an asset plotting system for managing printers on the floors. clients use this application via apis exposed by the product.​
+team structure: ​
+12 software engineers (development)​
+2 software engineers (qa)​
+1 devops engineer ","cartos helps organizations to optimize sites, gain more control on print services, and provide more efficient costs, maintenance, and resource utilization.​
+
+​",,,16,6+ years,active,mahesh,
+,hp itsm l1,hp,project,web development,printing,"this is a l1 support project. itsm team uses servicenow for tracking the incidents created by the users during the asset transition. it is an hp asset management system that tracks the assets throughout the asset's life cycle. track the asset information and transition. ​
+
+5 software engineers (support)",itt provides l1 support to receive user and system-generated incidents. triage them at the initial phase and provide the solution or move them to the l2 team for further troubleshooting and fixing.  ,"the l1 (level 1) team is the first point of contact providing the itsm team to segregate incidents to be moved to l2 or resolved at the level 1 stage.​
+
+​",,,5,2.5 years,active,,
+,hp card reader,hp,project,,printing,the main purpose of the project is to configure a card reader through our utility after which we can read the data from a card that has been configured with the required data​,"this application is a tool – which is used for deployment of hp card readers. ​
+allowing the user to: ​
+1. view card reader device details, view and set how the card reader interacts with users and how the card data is read and sent. ​
+2. save settings on the device itself or as a json file that can be used as a settings template. ​
+3. decode the data read from a card, and review or edit how that card data is decoded.​
+once deployment is complete it is typically uninstalled as it is not required for interaction with the card readers or for the card readers to function.","provided an easy way to the end users to configure the reader, also an easy way to upgrade the firmware of a reader that is obtained from clients; locally, remote and fleet configuration",,,2,6+ years,active- maintenance,,
+,hp fhm,hp,project,web development,printing,"hp fhm (fleet health management): is a visualization and data management project that helps extract printer data from multiple unorganized data sources, cleanse and streamline the data, transform and create visualizations for the business group. using these visualization, hp make market decisions on the device error data and replacements if needed",in time tec developed the solution using microsoft power bi platform and python (data science).,,,microsoft power bi & python,4,5+ years,active,,
+,hp s&m reporting,hp,project,,,"hp (s&m) sales & marketing reporting team mainly works on creating & maintaining power bi reports for below hp groups - ​
+1) partner online analytics ​
+2) supplies replenishment​
+3) sale productivity tool. each of the reports are used by hp and the partners to access the sales trend and adopt the required strategy to increase it",in time tec developed the solution using microsoft power bi platform,,,microsoft power bi ,7,3+years,active,,
+,hp data os,hp,project/case study,data engineering,,"we started the hp dataos data engineering project 3 years ago with one project called p2-retargeting with a team of 3 data engineers.​
+
+now, we have 3 projects with dataos with 17+ engineers: ​
+
+hp p2-retargeting (now cascade) - 9 data engineers​
+
+hp specialty data - 4 data engineers, and ​
+
+hp data products of 4 data engineers. ","the nature of work in all 3 sub-projects is similar. we extract the mass quantity of data around 10 millions of records per day from the client data sources, we process the data, and we write the data to client destination data sources.​
+
+data processing includes data cleaning, data validation, encryption, decryption, data privacy checks and data migration.​
+
+all the data pipelines were designed and developed by our team.
+data ingestion from multiple sources, like​
+
+amazon vendor central, best buy, criteo, office depot, staples, tera / orca / postgre / athena / apollo etc.​
+
+share point; from various file types like say, json, xml, excel​
+
+by virtue of web crawlers and email crawlers​
+
+data wrangling of the above data.​
+
+creation of the pipelines & flows.​
+
+handling partitioning challenges arising on account of scale of the data.​
+
+scheduling execution of operations; for given scenarios or at given scheduled time",all our data pipelines are highly scalable and automated. we do rigorous monitoring of data and pipelines to trace the abnormalities to alert the data engineers and the data source teams to take timely actions.,,"pyspark , apache airflow , splunk",17,3+ years,active,,
+,hp device common firmware,hp,project,"sdk ,web development",printing,the device common firmware platform is a global hp project that applies one firmware code across all the hp devices from small business to large format market. our team assists hp in delivering the foundations and capabilities in several key modules.,"our areas of expertise include the development of firmware (fm) and software development kits (sdk) for hp imaging and printing devices. ​
+
+we integrate a web server within the device so that it may be configured via the network using a standard web browser. ​
+
+we provide a core view framework that offers infrastructure to support all user interfaces across all products. ​
+
+we create walk up features and build components to assist client in comprehending and troubleshooting hp device system conditions. ​
+
+we help our client in all phases of software development, be it design, development, e2e testing, or support.","in time tec takes full ownership of the module assigned – and recommends new design, features on an ongoing basis. key highlights - ​
+
+1. highest quality release for beta (every quarter) for both e2 firmware & sdk with a 97% pass rate​
+
+2. own the overall work so that hp employees can concentrate on crucial tasks​
+
+   - in time tec tech leads / architects drive the work while hp validates and approves the approaches​
+
+3. in time tec has added buffer resources with various skills across many streams​
+
+   - assist in maintaining the velocity​
+
+   - unpaid resources aid in fixing bugs while not impacting hp budget",,"python, java, c++, qt , qml",46+,3+years,active,,
+,hp print at your service,hp,project,embedded application/web application,printing,the project was a combination of two applications that involved web as well as embedded application development. ​,"web application - to setup, configure, monitor and upgrade linux based thin clients that were running at various customer locations.​
+embedded application - custom application built and deployed on linux based thin clients. the main functionality of the application is tracking the usage on the printers in the same network. ​
+tech stack used - angular, c#, linux scripting, docker​
+
+​",,,"angular, c#, linux scripting, docker​",5,2+ years,closed,,
+,cpi,rise services,project,web application,healthcare,"a platform that provides the management(finding a job, building relationships, accessing the community, or learning to become more independent and dedicated to helping the individuals to serve to be successful in achieving their goals.) to support children & adults with the development disabilities. ​
+
+​","community partnerships of idaho (cpi) is a multi-service agency, a portal that helps in providing support for children and adults with development disabilities and mental illness. ​
+
+in the project cpi, we are tracking the data of the client and helping staff to work more efficiently on the client. the project divides into the modules as per requirement and the application is mainly divided into three parts​
+development services – adult (ads)​
+residential habilitation (reshab)​
+admin​",a web portal that helps in tracking the data of the client and helping staff to work more efficiently on the client.​,,,1.5,10+ years,active-maintenance,raunak,
+,healthwise,healthwise,project,web application,healthcare,customer came for technology upgrade project. ,migration project from .net 4.7 to .net 6.0 team is testing and migrating the existing pre built codebase. there are 32 services involved in the project with different integration and libraries to be updated.,project had successful outcome and improved overall performance of the web application.,,.net,6,3 months,active,prasun,migration project from .net 4.7 to .net 6.0
+,redbuilt,redbuilt,project,web application,construction,"redbuilt is a leader in the design, manufacture and support of proprietary engineered structural wood products for commercial applications. headquartered in boise, idaho, redbuilt operates four manufacturing plants and 13 design and sales offices throughout the united states.​
+
+webapp: currently, redbuilt uses several access database applications in order to keep their records. these access applications connects to microsoft sql server through access linked tables. this causes a delayed response. redbuilt needs to create a new system stable which should be scalable with improved performance.​
+
+dynamics: dynamics 365 sales helps their sales reps in managing their opportunities, contacts, companies effectively.","earlier redbuilt employees were using a desktop application which has now been converted to a scalable web application with desired features and performance.​
+access: internal​
+target user group: us​
+team structure – 4 software engineers, 1 qa","a web application where redbuilt internal workers can do inventory management, stock check, order follow ups, work planning etc.",,,5,3 years,active,neetima,from desktop application to web app development
+,sekady,sekady capital,project,financial workflow application/web application,construction,"sekady is optimizing construction through technology by helping builders keep their clients in the loop, manage their builds, and pay subcontractors. schedule tasks, send bid requests, and manage your bids - all from our powerful platform. sekady is providing payment solutions across multiple industries, processing over 6,000 invoices per month and disbursing over $30 billion in payments historically. ​
+
+​","in time tec has helped sekady to achieve the goal of managing the builds, paying the appraisers, subcontractors, scheduling tasks, sending bid requests, and managing those bids by developing many features (like: bid manager, task manager, inspection management, partial payment on invoices, draw requests, etc.). and, helped them to redesign the complete ui to improve user experience.​​
+access: external ​
+target user group: us​
+team structure: 12 software engineers (development), 4 software engineer (qa, 2 ui/ux","improved user experience and now sekady is providing some key features to optimize the construction process by streamlining it to help with the faster payments.​
+
+​",,,18,2 years,active,kuldeep,
+,hp sales & marketing,hp,project,data engineering,,"hp sales and marketing project engagement started with couple of engineers; now is more than fifteen engineers; supporting across below threads encompassing varied needs.​
+
+•inventory ; internal data engineering tier 1 ; market place ; global unified ds ; ml alarm ; neptune ; sara","data ingestion from multiple sources and data wrangling ​
+
+creation of the pipelines & flows.​
+
+handling partitioning challenges arising on account of scale of the data.​
+
+scheduling execution of operation for given scenarios or at given scheduled time.​
+
+creation of dashboards / teams notification alerts tracking datasets / scenarios.​
+
+development of data dictionaries, to augment missing documentation.​
+
+streamlining the pytrends data fetcher using proxies / different retry mechanisms.​
+
+monitoring pipelines to make sure the source datasets are up-to-date and need-based triaging.​
+
+conversion of given sql queries into pyspark pipeline.",,,"python / 'r' language, spark / pyspark, sql, redshift, mssql, sparksql",15+,3+years,active,,sql queries into pyspark pipeline.
+,hp smartfleet,hp,project,data science,printing,"printer product numbers/event codes reported from the field were mislabelled in the hp database causing data anomalies. this would result in incorrect data analysis drawing ineffective conclusions. data collected from printers are skewed, resulting in rogue data. if left unattended, the dataset would later grow, resulting in an ineffective analysis. ","automated analysis would pinpoint clusters of devices with unusual product number-event code association, which can then be passed on to field engineers for validation. anomalies are rare events but can be a major problem when they occur. given the pattern of data, the engine should determine if there is an anomaly. anomalous patterns can be flagged for immediate investigation. it can benefit the customer by proactively resolving the issues than doing it reactively. ","predictable printer data forecasting pattern.​
+
+properly label device product numbers/event codes reported from the field in the database. ​
+
+automated analysis would pinpoint clusters of devices with unusual product number-event code association, which can then be passed onto field engineers for validation to cross verify and take action. ",,,15+,5+ years,active,,
+,receipt localization & cropping project,,case study,datascience,," ​
+extraction of each receipt from a single a4/a3 page having multiple receipts scanned therein.​
+","solution​
+convolution neural network (cnn) for computer vision-based localization, and extraction of each receipt from scans of multiple (business-expense) receipts on to a4/a3 page.​",,,,,,,,
+,timesheet inferences project,,case study,datascience,,the thought behind this application is-to extracts the in time and out time from the scanned picture.​,"input is scanned-images of the attendance sheet. a cnn-based algorithm is used to detect and extract the content of the different sections of the scanned images. out interest is only to-extract the in time and out time entered. from the in time and out time, the employee's complete working hour is being determined for the hr group to keep track of the working hour.",,,,,,,,
+,predictions models project,,case study,datascience,,"missing printer data, noisy data, and mix-up of prices expressed in different currencies, dimensions / weight / resolution / print speed / power rating in different units, and at times, sparse data.",,,,,,,,,
+,asset advisor project,,case study,datascience,,"recommendation of device, which is functionally and technically closest possible to the reference device; while satisfying given constraints. ​
+","recommender, which would suggest an alternative device, based on multiple-criteria e.g., price, make, age, and pages printed per minute, resolution, device type, device technology, and a4/a3 support.​",,,,,,,,
+,selenium test automation for a telecommunications equipment company​,,case study,selenium test automation,,the leading telecommunications equipment company struggled with time-consuming and error-prone manual testing.,they implemented selenium for ui and api test automation.,"results:​
+
+testing time reduced by 50%, enabling faster feedback on changes.​
+
+consistent and reliable test results, minimizing human errors.​
+
+streamlined api testing and improved backend functionality.​
+
+enhanced collaboration between development and testing teams.​
+
+benefits:​
+
+accelerated time-to-market for new features and updates.​
+
+increased test coverage, reducing the risk of critical defects.​
+
+delivered high-quality network infrastructure management software.​
+
+conclusion: selenium test automation transformed testing, ensuring a robust and reliable application for managing critical network infrastructure.",,selenium,,,,,
+,us based load board and freight management,,case study,salesforce test automation,,"us based load board and freight management  company was facing challenges in managing their complex salesforce application testing process. manual testing was time-consuming and prone to errors, causing delays in delivering updates to their sales team and customers.","the company adopted salesforce test automation using provar, a robust test automation tool designed specifically for salesforce. they automated their end-to-end testing, including lead management, opportunity tracking, and sales forecasting.","reduced testing time by 60%, accelerating time-to-market for new features.​
+
+improved test coverage, resulting in a significant reduction in post-release defects.​
+
+enhanced collaboration between development and testing teams, leading to better alignment and faster issue resolution.",,provar,,,,,
+,"
+ migrating health and safety data for global agribusiness",,pdf-case study,business intelligence,agribusiness,a global agribusiness was in the process of migrating to a new system for their health and safety data. keeping clear business requirements was difficult,"in time tec came alongside their team to support the migration. we worked with the product owners to talk about what was and was not working, targeted needs, and created a plan. we supported the integration and managed the transition. 
+","improved transition workflow: 
+reliable access during transition and continued support after transition. 
+",,"data cleansing: airflow, talend 
+bigdata: hadoop 
+business intelligence: business intelligence experience using power bi, ssrs, qlikview, webfocus. cognos, brio. 
+query and scripting: sql, python, power shell 
+databases: sqlserver 2008- 2017, mysql, vertica, mongo 
+",,,,,"migrating health and safety 
+data for global agribusiness
+"
+,fully customizable database,,pdf-case study,cyber security,construction software solutions,"the client, a construction software solutions company, needed a third-party to test their existing system. they knew they had built plenty of security and defenses and needed someone to validate their testing.","in time tec essentially hacked their application in an effort to try to break or compromise it and share vulnerabilities with the client. we were able to bypass a lot of their existing defenses and showed them gaps for exploitations. we provided the client with a report of the vulnerabilities, showing which part of the code was vulnerable and suggested solutions. ",more security: found gaps where the application could be more secure validated what was working: proved that some of what they had done worked as it was supposed to.,,,,,,,
+, saving ecommerce client money,,pdf-case study,devops,ecommerce,"our client has an ecommerce site that runs all of their retail business. before partnering with in time tec, the client was using another vendor; that vendor had full control, meaning if they ever disappeared, all the knowledge and access to the client's website infrastructure would disappear as well. ","with onshore and offshore resources, in time tec was able to learn the old system alongside the client's devops team, ensuring that if our engagement ended, they would have people on their team who would have the necessary information and knowledge. ","saves members and client time: 
+no downtime during busy 2020 holiday season. 
+increased work efficiency: moved cloud providers for cost savings and improved features. 
+",,,,,,,
+, automating production monitoring,,pdf-case study,data science,healthcare technology,a healthcare technology company was manually checking multiple dash- boards for multiple clients everyday to monitor their software system health. technologists were spending three to four hours a day monitoring all the dashboards and creating tickets to address issues.,in time tec created a team of onshore developers to work with the company's existing team and decrease the manual production monitoring. our team created an api call from app insights through azure into a python script; the analysis is run in python and flagged when there is an issue; a jira ticket is then created for the issue. ,"by working with in time tec, this company was able to decrease time spent on manual monitoring and ticketing, getting back at least 15 hours of working time a week. 
+",,"languages: 
+python, sql, r, scala 
+software: 
+data bricks, spark, delta lake, ml flow, aws rds, aws redshift, azure synapse, mongo db 
+data analysis/manipulation numpy, pandas, scipy, statsmodels 
+ml tools: 
+xgboost, scikit learn, tensorflow, keras, pytorch, prophet",,,,,
+, saving ecommerce client money,,pdf-case study,mobile app development,education,"our client, a non-profit association that administers learning certificates and courses, had a manual honor-based system for tracking continuing education courses. members would attend an event to get credits, get a piece of paper that would show the credits, and then manually enter credits in the non-profits existing system. many people were forgetting to log or logging incorrect data and there was too much room for inaccuracies. ","in time tec built a mobile application that brought the whole system online. the app allows members to register, check in, and track events they attend for continuing education credits. instead of remembering to manually track credits, members now just scan a qr code when they arrive at an event and their attendance is tracked for credit. 
+","saves members and client time: 
+more accuracy of continuing education credit tracking with less room for human error. easier and more efficient tracking. ",,,,,,,
+, intensive run-through,,pdf-case study,quality assurance,insurance,"our client, an insurance company, had existing internal applications for employees. however, they had no quality assurance in their development and deployment process so the features were often breaking. the end-users were doing cursory quality checks but they were not experts nor did they know how to do detailed checks of every aspect of the application. ","in time tec came alongside the client and added onshore and offshore qa engineers to their existing teams. when the client's developers had finished coding, our engineers did an intense and thorough run-through of the application to ensure the expected results were produced. the in time tec team also worked to try to break the application to reveal any vulnerabilities. ","free up time: 
+the end-users no longer have to do quality assurance checks. 
+quality improvement: 
+with more in-depth qa, quality of all applications has improved. 
+",,,,,,,
+, automated data validation,,pdf-case study,test automation,agribusiness,"our client, an agribusiness, was migrating from an old tech, data manager scheduler and sql stored procedures, to the new tech, control-m scheduler and microsoft ssis packages. they wanted to make sure that the new tool was operating the same way as the older tool. it was of the utmost importance that nothing was changed or lost in the migration. the way to ensure this was to run both tools and compare the data. the client knew it was a near impossible task for a human to compare the millions of rows of data. 
+","in time tec built a custom tool to compare the data automatically. every week, we ran tests. they would pass or fail and we would offer solutions for the failed tests. ","we were able to alleviate the tediousness of someone manually comparing the data from one tool to another. we successfully moved them over to a new tool, caught defects early on, and automated it all along the way. 
+",,,,,,,
+,client portal,,pdf-case study,ux/ui,it,"our client, an information technology company, had begun offering devices as a service, or daas. they needed a portal for clients to manage the contracts, renewals, and requests for new equipment. initially, the technologists designed the tool from the client requests, which often meant that no one talked about ui design. this led to miscommunications about the look and feel of the portal and work was often redone. ",in time tec brought a ui designer onto the client's team. this person was responsible for mocking up the design of the tool before the developers even began to code. they worked directly with both the client and the developers to ensure everyone was on the same page for the vision of the portal,"on brand: 
+the new portal was on brand for the client's other tools and marketing. 
+more time efficiency: saved both the client & developers time by introducing a designer to mock up features before they were coded, instead of the client wanting changes after. created clarity: 
+all people involved knew exactly what to expect with the look and feel of the portal. 
+",,,,,,,
+,,,core capabilities,details,services by industry,codes,,,,,,,,,
+,,,web development,"1. architecture
+2. backend development
+3. frontend development
+4. ui/ux design","1. public sector
+2. education
+3. helathcare
+4. printing
+5. b2c","naics:
+1. 541511- custom computer programming services
+2. 511210- software publishers
+3. 541512- computer software consulting services
+4. 541519- other computer related services
+5. 541513- computer facilities management
+duns:
+016023720",,,,,,,,,
+,,,app development,"1. native/hybrid
+2. ui/ux design",,,,,,,,,,,
+,,,data,"1. data engineering
+2. data science
+2. visual reporting",,,,,,,,,,,
+,,,qa test automation,"1. qa architecture
+2. test plan development
+3. web, desktop, mobile testing
+4. cross-browser automated testing
+5. performance and scalability testing",,,,,,,,,,,
+,,,devops,"1. continuous high-quality development
+2. seamless releases and launches",,,,,,,,,,,
+,,,cybersecurity,"1. penetration testing
+2. vulnerability analysis
+3. security hardening and monitoring
+4. devsecops pipeline setup",,,,,,,,,,,
+,simplot sharepoint forms,simplot,project,,logistics​,"simplot had their logistics solutions developed in sharepoint 2013 which eventually needed to digitalize and that’s where the phase 1 started, itt is migrating the existing sharepoint 2013 application to microsoft power platform.","​ itt proposed a microsoft power platform solution to migrate the existing sharepoint forms to canvas app, which enables users to have more usable experience.​
+
+for reporting part powerbi tool being used which gives user more detailed report with good user experience. ​",a customized app to manage simplot's fixed assets details and approval process along with few other apps with a more user-friendly reporting feature.,,power bi,,,,kuldeep,sharepoint 2013 to microsoft power platform
+,"automated process for quick customer onboarding ​
+",truckstop,project,salesforce,transport,"truckstop provides services for logistics and transportation, carriers , brokers and shippers uses their application. to onboard new clients, sales team has to preform different security checks which is time consuming process. ​","
+worked on implementation for automation where process collects data from different sources and perform security check automatically (we used apex and lwc , batch processing, we have consumed few external apis to validate the authorised customer this data we get from open-source apis by us government. created uis for user interactions)​","quick onboarding of customers. earlier it was a manual process which was time taking. automation helped in make the process faster and reducing scope for human errors.​
+
+sales team has access to all data required in salesforce itself no need to login and manually verify details",,,,,,gnanraj,
+,idaho stars,,,,,"idahostars is the leading expert and resource  for quality child care in idaho. they empower  parents and early childhood professionals to  make safe, healthy, nurturing, and educational  child care a top priority. they support child  
+care professionals to continually improve early  care and education practices
+challenge : idahostars used to rely on paper-based  systems to complete coaching, training,  licensing, and record keeping. this resulted in  a slow turn-around time–ranging from weeks  to months–for child care providers to get  licensed. the way the data was stored also  contributed to lengthy turnaround times.  having five disconnected databases meant  that an update in one resulted in a manual  update in the remaining four. permission  restrictions were a blocker as well. only  select users could access the data, creating  bottlenecks in the workflows and to top it all  off, the software idahostars had been using  for years was soon to be obsolete.","in time tec created rise, a web application  (integrated with ux/ui best practices) that  was easier to access, easier to use, more  intuitive, and more reliable. rise consolidates  the data in one place for robust, dynamic  reporting that is consistent for every process.  it also gives customers access and control of  their own data. we focused on optimizing the  workflow so idahostars could provide the  value, training, and advice they were looking  to provide in order to improve the education  experience for young kids. 
+","created a web development team for  idahostars so we can support them to  roll out new features. 
+provided a five-person offshore team to  work closely with idahostars. 
+rise has processed, approved, and paid  trainers for 800+ scholarships within the  first year. 
+minimized turn-around time by 4-6 weeks for child care provider licensing and  
+incentives. 
+gave providers control over their personal administrative tasks freeing up rise coaches  to focus on coaching instead of processes. idahostars is no longer the gatekeeper of  the provider’s information. 
+planning to create a mobile-friendly 
+application of rise giving access to  
+providers in the palm of their hands. 
+",,,,,,,
+,transparent idaho,,,,,"the idaho legislature passed a bill that required local government financial data be available  on the state controller’s transparent idaho  website. the state controller’s office 
+(sco) faced three significant challenges with  implementing this bill, in addition to a very  short deadline for completion. a large volume  of data from over 1,300 state entities had to be  imported and organized. the second challenge  - creating a website where the information  was easily accessed and clearly understood  by idaho citizens. the third challenge - sco’s  technical teams were already focused on other  important projects and could not develop the  website within the required time frames. they  needed to find a partner with the expertise to create the solution, augment their team, and drive the project to completion. 
+","in time tec’s technical teams partnered with  sco on this project. our ux/ui design team  conducted field studies, focus groups, and  additional user research to ensure that the  website was intuitive and full-featured. in time  tec’s data engineering and analytics team  modeled the large volume of data from idaho's  1300 local entities to create easy-to-understand  visuals and reports that meet the requirements  of the local transparency initiative. our web  development team used the design and data  analytic features to create a user-friendly, fully  responsive website which provides detailed  financial information and promotes trust  in government. the idaho state controller’s  challenges were addressed, the state achieved  its goal of providing transparent financial  reporting, and in time tec successfully  partnered with sco to complete the project on  time and on budget. 
+","engineered user interface to access over 1,300  local government entities’ unique data with an  interactive, visually engaging, web-based platform 
+public access through mobile responsiveness on  any device 
+powerful research tool and interactive reports  generated from disparate data to build trust with  citizens of idaho 
+",,,,,,,
+"in time tec overview:
+ in time tec provides onshore/offshore software development services so that our partners can focus on their strengths and keep their teams focused on the execution and innovation that will propel them forward. we provide breadth and depth in technical resources through our knowledge base and flexible workforce. this expertise is coupled with a commitment to harnessing our culture of execution by delivering immediate roi to our clients via affordable, long-term software services. 
+differentiators: 
+we garner our partners' trust and confidence that we will support them and deliver the highest quality services through the following: 
+delivery :
+focus on delivering value. commitment to our word and delivering on those promises. 
+relationships :
+open and candid communication and dedication to vested 
+partnerships. 
+values :
+commitment to something bigger than ourselves. our core values drive everything we do: trust, transparency, integrity, and leadership. 
+quality :
+focused on delivering quality and value. 
+",,,,,,,,,,,,,,,
