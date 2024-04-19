@@ -70,7 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'chatbot_backend.wsgi.application'
-os.environ["OPENAI_API_KEY"]="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"
+
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
