@@ -10,7 +10,7 @@ from  chatbot_backend.settings import OPENAI_API_KEY_value
 def rag(query, chat_history):
     
     # embedding = OpenAIEmbeddings(model="gemma-1.1-7b-it")
-    # OPENAI_API_KEY = "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"
+   
     t0=datetime.now()
     embedding = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=OPENAI_API_KEY_value)
     # file_path = "C:/Users/priyanka.singhal/Data-Science2024/Priyanka/ITT_Chatbot_React_Django/chatbot_backend/data/Master data.csv"

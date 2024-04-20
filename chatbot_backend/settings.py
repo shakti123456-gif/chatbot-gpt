@@ -1,8 +1,8 @@
 import os
 
 from pathlib import Path
-from dotenv import load_dotenv,dotenv_values
-load_dotenv()
+# from dotenv import load_dotenv,dotenv_values
+# load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-^*f2+fz67e#v_(f#+#kg2%c(61w+njo2)3qtxq^$+l(gkhk@hf'
-SECRET_KEY = os.getenv("my_secrey_key")
+# SECRET_KEY = os.getenv("my_secrey_key")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -73,9 +73,9 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'chatbot_backend.wsgi.application'
-os.environ["OPENAI_API_KEY"]=os.getenv("my_open_ai_key")
-OPENAI_API_KEY_value=os.getenv("my_open_ai_key")
-
+os.environ["OPENAI_API_KEY"]="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"
+# OPENAI_API_KEY_value=os.getenv("my_open_ai_key")
+OPENAI_API_KEY_value="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"
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
